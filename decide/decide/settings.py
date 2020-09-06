@@ -14,8 +14,8 @@ import os
 import django_heroku
 
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
-	BASEURL = 'https://prueba-examen88.herokuapp.com' 
-	APIS = {
+BASEURL = 'https://prueba-examen88.herokuapp.com' 
+APIS = {
     		'authentication': 'https://prueba-examen88.herokuapp.com', 
     		'base': 'https://prueba-examen88.herokuapp.com',
     		'booth': 'https://prueba-examen88.herokuapp.com',
@@ -25,8 +25,8 @@ ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
     		'store': 'https://prueba-examen88.herokuapp.com',
     		'visualizer': 'https://prueba-examen88.herokuapp.com',
     		'voting': 'https://prueba-examen88.herokuapp.com',
-		}
-	django_heroku.settings(locals())
+	}
+django_heroku.settings(locals())
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
