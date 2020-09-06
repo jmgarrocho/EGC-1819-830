@@ -16,15 +16,15 @@ import django_heroku
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 BASEURL = 'https://prueba-examen88.herokuapp.com' 
 APIS = {
-    		'authentication': 'https://prueba-examen88.herokuapp.com', 
-    		'base': 'https://prueba-examen88.herokuapp.com',
-    		'booth': 'https://prueba-examen88.herokuapp.com',
-    		'census': 'https://prueba-examen88.herokuapp.com',
-    		'mixnet': 'https://prueba-examen88.herokuapp.com',
-   		'postproc': 'https://prueba-examen88.herokuapp.com',
-    		'store': 'https://prueba-examen88.herokuapp.com',
-    		'visualizer': 'https://prueba-examen88.herokuapp.com',
-    		'voting': 'https://prueba-examen88.herokuapp.com',
+    	'authentication': 'https://prueba-examen88.herokuapp.com', 
+    	'base': 'https://prueba-examen88.herokuapp.com',
+    	'booth': 'https://prueba-examen88.herokuapp.com',
+    	'census': 'https://prueba-examen88.herokuapp.com',
+    	'mixnet': 'https://prueba-examen88.herokuapp.com',
+   	'postproc': 'https://prueba-examen88.herokuapp.com',
+    	'store': 'https://prueba-examen88.herokuapp.com',
+    	'visualizer': 'https://prueba-examen88.herokuapp.com',
+    	'voting': 'https://prueba-examen88.herokuapp.com',
 	}
 
 
