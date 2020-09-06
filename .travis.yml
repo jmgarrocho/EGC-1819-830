@@ -20,5 +20,8 @@ script:
 - cp local_settings.local.py local_settings.py
 - python ./manage.py test --keepdb
 deploy:
+  provider: heroku
+  app: "prueba-examen88"
+  strategy: git
   api_key:
     secure: Cd6fIC/Xtk+J8AsB/a8eJFUWcr9DbLPRr73Ld3PFyD4a2blh1pTXo05Lz6M2PEJ9RlMyQWwAPXXzuCUeFjjIlKg1YjnwBfqQzC19HKk1TGKd+eZ5g0uhyetsyVPJSXF+NW6rKri374zyJMUtvjipOT6WDSMvepvhhScZEN/ceJoIZzdkLez45JeTiwSJo4p4eMfZiZi8yQyJenDDrp08302T2RNsWIC8c8uu3jY1PoY47C5MjPKWt+qvJBlGQbHFtJPI4f0x/OiKyHy1AVJ922iXCDvlvJ+2CgSpbqi3qg/ZqFQV7GkMvyuJcugwQ1KzquDXwdPZ8C2jX0sorxWYvUU6BMUGhqP4Jb7gGfjKfB1W/drOhv02AyHPi+O1bXWoxz+U5Uwa52bN6+KY1RpZU4NIquO6IDcMryycTFH3P3AUnjJSTkByhvpmBpTcqs0G0Qh/a5BfQPP4mVbLJrpK9honj7xIeGIBGCFS8f8dQWZtvpNhVECyQbVSUyglUnpngdL9Ljc9gOdkwY510Gw7fPK+KTWmtG665ZkQhVT6Yu1eENqNGb94iThyo8jUnDIsKyd0vw0x0cXE94mHs5birSKYKjVW0KnbR9AZfvCvbAFKScd5wbp8skDZ3jk+qq6TFB62xzEvehQBEIn1SXkQDsMD3ZwuLa7JxHttXS7tUJs=
