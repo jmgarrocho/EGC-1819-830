@@ -20,3 +20,5 @@ script:
 - cp local_settings.local.py local_settings.py
 - python ./manage.py test --keepdb
 
+app: prueba-examen88 
+
